@@ -1,5 +1,6 @@
 <ion-header>
-  <ion-navbar>
+    <ion-navbar color="lightgreen">
+        <button ion-button menuToggle><ion-icon name="menu"></ion-icon></button>
     <ion-title>
       Contact
     </ion-title>
@@ -8,11 +9,12 @@
 
 <ion-content>
   <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
     <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-      
+      <br>
+      <ion-icon name="book"></ion-icon> 중앙도서관 연락망
+      <br>
+<br>
+<button ion-button round outline color="green2" (click)="openUrl();" >중앙도서관 연락처</button>
     </ion-item>
   </ion-list>
 </ion-content>
